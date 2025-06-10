@@ -12,6 +12,10 @@
         array<int, 3> data = { 10, 20, 30 };
         // pesan array int 3 elemen
         cout <<data.at(5) << endl;
+        // memanggil array elemen ke 5
+    }
+    catch (exception& e){
+        
     }
 
     
