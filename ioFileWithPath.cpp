@@ -16,7 +16,14 @@ int main() {
     // unlimited loop untuk menulis
     while (true)
     {
-        /* code */
+        cout << "- ";
+        // mendapatkan setiap karakter dalam satu baris
+        getline(cin, baris);
+        if (baris == "q") break;
+        {
+            /* code */
+        }
+        
     }
     
 }
