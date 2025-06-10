@@ -19,6 +19,9 @@
         cout << e.what() << endl;
         // akan dieksekusi karena array daya hanya memiliki 3 elemen
     }
-
+    cout << "Baris Program yang terakhir" << endl;
+    // penanda 2: bahwa program berjalan tanpa berhenti
+    // meskipun terjadi kesalahan
+    return 0;
     
  }
