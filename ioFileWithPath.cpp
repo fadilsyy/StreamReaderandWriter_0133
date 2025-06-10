@@ -20,10 +20,8 @@ int main() {
         // mendapatkan setiap karakter dalam satu baris
         getline(cin, baris);
         if (baris == "q") break;
-        {
-            /* code */
-        }
-        
+        // menulis dan memasukkan nilai dari 'baris' ke dalam file
+        outfile << baris << endl; 
     }
     
 }
