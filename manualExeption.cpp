@@ -6,10 +6,12 @@ int main() {
     {
         cout << "Selamat Belajar di Prodi TI UMY" << endl;
         throw 0,5; // melemparkan sbuah integer maka
+        cout << "Pernyataan tidak akan dieksekusi" << endl;
     }
-    catch(const std::exception& e)
+    catch(int a)
     {
-        std::cerr << e.what() << '\n';
+        // blok ini akan dieksekusi
+        cout << "Pengecualian akan dieksekusi" << endl;
     }
     
 }
